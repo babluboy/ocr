@@ -1,0 +1,13 @@
+python set up on ubuntu:
+=======================
+python and pip should be installed, then run the following pip commands:
+pip install pillow
+pip install pytesseract
+
+Got lots of errors at this point on running python script. Required, tessaract libraries:
+sudo apt install tesseract-ocr
+sudo apt install libtesseract-dev
+
+Was able to run the python script at this point.
+run python code with absolute image path (relative path gives error - error handling required 
+python ocr.py --image "/home/sid/Documents/Projects/OCR/tesseract-helloworld/example_01.png"
