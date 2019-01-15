@@ -11,3 +11,8 @@ sudo apt install libtesseract-dev
 Was able to run the python script at this point.
 run python code with absolute image path (relative path gives error - error handling required 
 python ocr.py --image "/home/sid/Documents/Projects/OCR/tesseract-helloworld/example_01.png"
+
+
+git set up and push
+=======================
+git push https://github.com/babluboy/nutty master
