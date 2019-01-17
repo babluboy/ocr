@@ -1,0 +1,51 @@
+“Termination Currency” has the meaning specified in the Schedule.
+“Termination Currency Equivalent” means, in respect of any; amount denominated in the
+Termination Currency, such Termination Currency amount and, in respect of any amount
+denominated in a currency other than the Termination Currency (the “Other Currency"), the amount in
+the Termination Currency determined by the party making the relevant determination as being
+required to purchase such amount of such Other Currency as at the relevant Early Termination Date,
+or, if the relevant Market Quotation or Loss (as the case may be), is determined as of a later date, that
+later date, with the Termination Currency at the rate equal to the spot exchange rate of the foreign
+exchange agent (selected as provided below) for the purchase of such Other Currency with the
+Termination Currency at or about 11:00 a.m. (in the city in which such foreign exchange agent is
+located) on such date as would be customary for the determination of such a rate for the purchase of
+such Other Currency for value on the relevant Early Termination Date or that later date. The foreign
+exchange agent will, if only one party is obliged to make a eterna under Section 6(e), be
+selected in good faith by that party and otherwise will be agreed by the parties.
+
+“Termination Event” means an Tegality, a Tax Event or a Tax Event Upon Merger or, if specified to
+be applicable, a Credit Event Upon Merger or an Additional Termination Event.
+
+“Termination Rate” means a rate per annum equal to the arithmetic mean of the cost (without proof
+or evidence of any actual cost) to each party (as certified by such iparty) if it were to fund or of
+funding such amounts.
+
+ 
+
+“Unpaid Amounts” owing to any party means, with respect to an Early Termination Date, the
+aggregate of (a) in respect of all Terminated Transactions, the amounts that became payable (or that
+would have become payable but for Section 2(a)(iii)) to such party under Section 2(a)(i) on or prior to
+such Early Termination Date and which remain unpaid as at such Early Termination Date and (b) in
+respect of each Terminated Transaction, for each obligation under |Section 2(a)(i) which was (or
+would have been but for Section 2(a)(iii)) required to be settled by deli ery to such party on or prior to
+such Early Termination Date and which has not been so settled as at such Early Termination Date, an
+amount equal to the fair market value of that which was (or would he been) required to be delivered
+as of the originally scheduled date for delivery, in each case together with (to the extent permitted
+under applicable law) interest, in the currency of such amounts, Fronp (and including) the date such
+amounts or obligations were or would have been required to have been paid or performed to (but
+excluding) such Early Termination Date, at the Applicable Rate. Such amounts of interest will be
+calculated on the basis of daily compounding and the actual number of days elapsed. The fair market
+value of any obligation referred to in clause (b) above shall be reasonably determined by the party
+obliged to make the determination under Section 6(e) or, if each party is so obliged, it shall be the
+average of the Termination Currency Equivalents of the fair market values reasonably determined by
+both parties.
+
+IN WITNESS WHEREOF the parties have executed this document oh the respective dates specified
+below with effect from the date specified on the first page of this document.
+
+Internationale (Kapitalanlagegesellschaft) Barclays| Bank PLC
+mbH.
+
+  
+
+18

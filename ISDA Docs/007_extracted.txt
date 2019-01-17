@@ -1,0 +1,87 @@
+hee
+
+7
+|
+|
+|
+
+Part 1. Termination Provisions.
+
+(a) “Specified Entity” means in relation to Party A for the| purpose of.
+Section 5(a)(v), not applicable
+Section 5(a)(vi), not applicable
+Section 5(a)(vii), not applicable; and
+Section 5(b)(iv), net applicable.
+
+And in relation to Party B for the purpose of.
+
+Section 5(a)(v), not applicable
+Section 5(a)(vi), not applicabie
+Section 5(a)(vii), not applicable; and
+Section 5(b)(iv), not applicable. i
+
+|
+“Specified Transaction” means instead of the definition in Section 14 of this
+Agreement, any transaction (including an agreement with respect thereto) now
+existing or hereafter entered into between one party to this Agreement (or any Credit
+Support Provider of such party or any applicable Specified Entity of such party) and
+the other party to this Agreement (or any Credit Support Provider of such other party
+or any applicable Specified Entity of such other party) (i) which is a rate swap
+transaction, swap option, basis swap, forward rate |transaction, commodity swap,
+commodity option, equity or equity index swap, equity or equity index option, bond
+option, interest rate option, foreign exchange transaction, cap transaction, floor
+transaction, collar transaction, currency swap transaction, cross-currency rate swap
+transaction, currency option, credit protection transaction, credit swap, credit default
+
+(b)
+
+ 
+
+ 
+
+swap, credit default option, total return swap, credit
+
+(c)
+
+transaction, reverse repurchase transaction, buy/s
+
+lending transaction, or forward purchase or sale o
+instrument (including any option with respect to an
+
+which is a transaction similar to any transaction r
+
+pread transaction, repurchase
+\l-back transaction, securities
+a security or other financial
+of these transactions) or (i)
+ferred to in clause (i) that is
+
+currently, or in the future becomes, regularly entered into in the financial markets
+(including terms and conditions incorporated by reference in such agreement) and
+that is a forward, swap, future, or option on one or more rates, currencies,
+commodities, equity securities or other equity instruments, debt securities or other
+debt instruments, or economic indices or measures ofeconomic risk or value, (b) any
+combination of these transactions and (c) any other transaction identified as a
+Specified Transaction in this agreement or the relevant confirmation.
+
+The “Cross Default” provisions of Section 5(a)(vi) will apply to Party A and will apply
+to Party B.
+
+“Specified Indebtedness” means instead of the definition in Section 14 of this
+Agreement, any obligation for borrowed money, other than any obligations in respect
+of deposits received at any time in the ordinary course| of a party's banking business.
+
+“Threshold Amount’ means,
+
+ 
+
+for Party A (i) where the Client is a fund 3% of such party's net asset value as
+determined from time to time by reference to its most! recent prospectus or operating
+memorandum or (ii) where the Client is a company: limited by shares 3% of such
+party’s shareholders equity (on a consolidated basis) as determined from time to time
+in accordance with generally accepted UK accounting principles by reference to Party
+B’s most recently published audited financial stateme its and in relation to Party B, an
+amount equal to 3% of such Party B's shareholders' equity (on a consolidated basis)
+as determined from time to time in accordance with |generally accepted accounting
+principles in Party B’s jurisdiction of incorporation or organisation by reference to
+Party B’s most recently published audited financial statements.

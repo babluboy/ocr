@@ -1,0 +1,69 @@
+pene a ne ee NERY ae An ci cen nee ener enamine eS
+
+ 
+
+(d} The “Credit Event Upon Merger” provisions of Section 5(b)(iv) will apply to Party B
+and will apply to Party A restated as follows:-
+
+“Credit Event Upon Merger” shall mean that a Designated Event (as defined below)
+occurs with respect to a party, any Credit Support Provider of such party or any
+applicable Specified Entity of such party (in each case, “X’) and such Designated
+Event does not constitute an event described in Section 5(a){viii) of this Agreement
+but the creditworthiness of X or, if applicable, the successor, surviving or transferee
+entity of X, is, in the reasonable opinion of the other party, materially weaker than that
+of X immediately prior to such action after taking into jaccount any applicable Credit
+Support Document (and, in such event, such party or its successor or transferee, as
+appropriate, will be the Affected Party). For purposes hereof, a Designated Event
+with respect to X means that, after the execution date hereof:
+
+ 
+
+(i) X consolidates or amalgamates with or merges with or into (or demergers
+from), or transfers all or substantially all its assets (or any substantial part of
+the assets comprising the business conducted by X as of the execution date
+hereof) to, or receives all or substantially all the assets or obligations of,
+another entity; or
+
+(ii) X effects any substantial change in its capital structure by means of the
+issuance, incurrence or guarantee of debt or the issuance of preferred stock
+or other securities convertible into, or exchangeable for, debt or preferred
+stock; or
+
+(iii) X enters into an agreement providing for any of the foregoing.
+(e) The "Automatic Early Termination" provision of Section 6(a)
+will apply to Party A
+will not apply to Party B
+
+lf an Early Termination Date occurs under Section 6(a) as a result of Automatic Early
+Termination, the Defaulting Party shall fully indemnify the Non-Defaulting Party on demand
+against all expense, loss, damage or liability that the Non-Defaulting Party may incur in
+respect of this Agreement. and each Transaction as a consequence of movements in
+interest, currency, exchange or other relevant rates of prices or Market Quotations
+between Early Termination Date and the Local Business Day on which the Non-Defaulting
+Party first becomes aware that the Early Termination Date has occurred under Section
+6(a). The Non-Defaulting Party may for this purpose convert any expense, loss, damage
+or liability to the Termination Currency.
+
+ 
+
+respect of this Agreement and each Transactions as a consequence of movements in
+interests, currency, exchange or other relevant rates or prices or Market Quotations
+between the Early Termination Date and the Local Business Day on which it first becomes
+aware that the Early Termination Date has occurred under Section 6(a), the amount of
+such gain or benefit shall be included in the calculation a Non-Defauiting Party of the
+
+if the Non-Defaulting Party shall determine that it asa one any gain or benefit in
+
+amount payable for the purposes of Section 6(e)(i)(3) or (4).
+
+(f Payment on Early Termination. For the purpose of Section 6(e) of this Agreement:-
+
+(i) Market Quotation will apply, provided, however that for the purposes of the
+definition of Settlement Amount all FX Transactions, Currency Options (as
+defined in Part 6 of this Schedule) shall be conclusively and irrevocably
+deemed to be Transactions for which a Market Quotation cannot be
+determined.
+
+(iii) | The Second Methad will apply
+
+(g) “Termination Currency” means Euro.
