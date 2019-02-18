@@ -1,0 +1,41 @@
+#Connect to Amazon S3 instance
+import boto3
+
+#import packages for image handling and tesseract
+from PIL import Image
+import pytesseract
+import cv2
+import os
+import tempfile
+import PIL.Image
+
+def image_recognition(file_to_read):
+    bucket_name = 'demo.new.doc.for.ocr'
+    temp_downloaded_file =  "/tmp/{}.docsense_download".format(os.getpid())
+    temp_png_image = "/tmp/{}.docsense_download.png".format(os.getpid())
+    client = boto3.client('s3') #low-level functional API
+    resource = boto3.resource('s3') #high-level object-oriented API
+    my_bucket = resource.Bucket(bucket_name) #subsitute this for your s3 bucket name.
+    #for obj in my_bucket.objects.all():
+    #key = obj.key
+    #key = file_to_read
+    #print "Found file on S3:"+key
+    #body = obj.get()['Body'].read()
+    resource.Bucket(bucket_name).download_file(file_to_read, temp_downloaded_file)
+    #Create a temp file by writting the contents read from file on S3
+    #f = open(temp_downloaded_file, 'w')
+    #f.write(body)
+    #f.close()
+    #Convert to PNG
+    image = cv2.imread(temp_downloaded_file)
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    cv2.imwrite(temp_png_image, gray)
+    #convert image to text
+    text = pytesseract.image_to_string(Image.open(temp_png_image))
+    print(text).encode("utf-8")
+    #remove temp files
+    os.remove(temp_png_image)
+    os.remove(temp_downloaded_file)
+
+#Define main body
+#image_recognition('1940_book_1.jpg')

@@ -1,0 +1,78 @@
+Initial Set Up for Demo
+==========================
+
+1. Created Amazon free tier account.
+2. Created an EC2 Compute instance - Ubuntu 64 bit with 15GB disk
+	https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:sort=instanceId
+3. Created an User Group, User and generated access keys
+	https://console.aws.amazon.com/iam
+	User : ocr_user
+	Group: inflexi
+	Access key ID: AKIAIBSMGG5ESS72E6EQ
+	Secret access key: 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
+	
+4. Generated the pem file for setting up access to the EC2 instance via SSH from local machine
+
+5. Added a S3 bucket to upload files
+	demo.new.doc.for.ocr
+	https://s3.console.aws.amazon.com/s3/home?region=us-east-1
+	
+6. Create a directory structure under the ubuntu directory on EC2:
+	|-ubuntu
+	  |  |-docsense
+	  |  |  |-ocr
+7. Install boto3:
+	sudo apt install python-pip
+	pip install boto3
+	
+8. Install aws cli to configure environment
+sudo apt  install awscli
+then run : aws configure
+
+9. Install libraries for tesseract
+
+sudo apt install tesseract-ocr
+sudo apt install libtesseract-dev
+sudo apt-get install libsm6 libxrender1 libfontconfig1
+
+pip install pillow
+pip install pytesseract
+pip install opencv-python
+
+10. Create a python script (in /home/ubuntu/docsense/ocr) to read the file from EC2 (just for testing) and apply tesseract ocr on it.
+run the script: python image_to_text.py
+
+11. Create a SQS Message Queue to be triggered by the input doc getting uploaded to S3
+	demo_doc_input
+	sample trigger message : 
+	{"Records":[
+		{"eventVersion":"2.1","eventSource":"aws:s3","awsRegion":"us-east-2","eventTime":"2019-02-13T13:32:16.251Z","eventName":"ObjectCreated:Put","userIdentity":{
+			"principalId":"A2272LAQ514BRS"
+		},"requestParameters":{
+			"sourceIPAddress":"182.59.208.48"
+		},"responseElements":{
+			"x-amz-request-id":"ACB15DE7990CAF91","x-amz-id-2":"qK4d6X256fnpBGkyaM1Fv+Z2WgRCSTI2invPg3u8yb302+Pszr0kOmsRA8FMGmL/LsMs8xxHzSI="
+		},"s3":{
+			"s3SchemaVersion":"1.0",
+			"configurationId":"demo_notify_doc_for_ocr",
+			"bucket":{
+				"name":"demo.new.doc.for.ocr",
+				"ownerIdentity":{
+					"principalId":"A2272LAQ514BRS"
+				},
+				"arn":"arn:aws:s3:::demo.new.doc.for.ocr"
+			},
+			"object":{
+				"key":"Emp_Withholding.png","size":678723,"eTag":"6ec6114ad1a6c406a8add028369edb28","sequencer":"005C641C601EE67682"
+			}
+		}
+		}
+	]}
+
+12. Set up a trigger on S3 to send a message to the SQS Message Queue when a document is uploaded
+	demo_notify_doc_for_ocr
+	Event Notification to be sent to demo_doc_input
+	
+13. Create a python script (in /home/ubuntu/docsense/ocr) to read a message from the SQS Queue (demo_doc_input)
+	receive_new_document_trigger_message.py
+	

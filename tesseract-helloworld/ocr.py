@@ -46,6 +46,4 @@ text = pytesseract.image_to_string(Image.open(filename))
 os.remove(filename)
 
 print(text).encode("utf-8")
-
-
 cv2.waitKey(0)
