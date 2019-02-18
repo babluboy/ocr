@@ -6,10 +6,8 @@ Initial Set Up for Demo
 	https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:sort=instanceId
 3. Created an User Group, User and generated access keys
 	https://console.aws.amazon.com/iam
-	User : ocr_user
+	User : inflexi_ocr
 	Group: inflexi
-	Access key ID: AKIAIBSMGG5ESS72E6EQ
-	Secret access key: 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
 	
 4. Generated the pem file for setting up access to the EC2 instance via SSH from local machine
 

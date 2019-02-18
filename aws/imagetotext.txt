@@ -16,16 +16,7 @@ def image_recognition(file_to_read):
     client = boto3.client('s3') #low-level functional API
     resource = boto3.resource('s3') #high-level object-oriented API
     my_bucket = resource.Bucket(bucket_name) #subsitute this for your s3 bucket name.
-    #for obj in my_bucket.objects.all():
-    #key = obj.key
-    #key = file_to_read
-    #print "Found file on S3:"+key
-    #body = obj.get()['Body'].read()
     resource.Bucket(bucket_name).download_file(file_to_read, temp_downloaded_file)
-    #Create a temp file by writting the contents read from file on S3
-    #f = open(temp_downloaded_file, 'w')
-    #f.write(body)
-    #f.close()
     #Convert to PNG
     image = cv2.imread(temp_downloaded_file)
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
